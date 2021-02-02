@@ -1,0 +1,26 @@
+{
+  "name": "Continous_Integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "test:dev":"npm run test -- --watch",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonilGoklani/acme-movie-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonilGoklani/acme-movie-api/issues"
+  },
+  "homepage": "https://github.com/MonilGoklani/acme-movie-api#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
