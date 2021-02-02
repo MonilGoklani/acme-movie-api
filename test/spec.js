@@ -17,4 +17,12 @@ describe('Tests',()=>{
             expect(response.text).to.include('Hello World')
         })
     })
+    describe('Get /api/actors',()=>{
+        it('returns actors',async()=>{
+            const response = await app.get('/api/actors');
+            expect(response.status).to.equal(200);
+            expect(response.body.length).to.equal(5)
+        })
+    })
+    
 })
